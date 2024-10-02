@@ -15,21 +15,21 @@ const fetchProducts = async () => {
 
 const displayProducts = (products) => {
     const productContainer = document.getElementById("products");
-    
+
     productContainer.innerHTML = ''; // Clear previous products
     products.forEach(product => {
         const productCard = `
-        <div class="col-md-4 mb-4">
-            <div class="card product-card">
+        <div class="col-md-4 mb-4  p-2 px-2">
+         
                 <div class="card-img-top">
-                <img src="${product.image}" class="card-img-top" alt="${product.title}">
+                <img src="${product.image}" class="card-img-top align-items-center" alt="${product.title}">
                 </div>
-                <div class="card-body">
+                <div class="card-body w-75 h-full">
                     <h5 class="card-title">${product.title}</h5>
                     <p class="card-text">$${product.price}</p>
                     <button class="btn btn-success" onclick="addToCart(${product.id}, '${product.title}', ${product.price})">Add to Cart</button>
                 </div>
-            </div>
+       
         </div>
         `;
         productContainer.innerHTML += productCard;
@@ -75,7 +75,7 @@ document.getElementById("checkout").addEventListener("click", () => {
 
         cart.length = 0;
         updateCart();
-        
+
         const modal = bootstrap.Modal.getInstance(document.getElementById('cartModal'));
         modal.hide();
     }
