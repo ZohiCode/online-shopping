@@ -1,8 +1,8 @@
 ![image](https://github.com/user-attachments/assets/793dc35e-b1ac-4a58-afd0-ce8dfb95a8eb)
 
-# Modern Shopping Cart Project
+# Modern Shopping Cart 
 
-Welcome to the **Modern Shopping Cart Project** repository. This project simulates a modern online shopping cart using **HTML**, **JavaScript**, and **Bootstrap**. The application fetches product data from a public API, allowing users to add items to their cart, view total prices, and proceed to checkout.
+This project simulates a modern online shopping cart using **HTML**, **JavaScript**, and **Bootstrap**. The application fetches product data from a public API, allowing users to add items to their cart, view total prices, and proceed to checkout.
 
 ## Features
 
@@ -51,7 +51,7 @@ Ensure you have a basic understanding of HTML, CSS, and JavaScript. An internet 
 
 # Modern Alışveriş Sepeti Projesi
 
-**Modern Alışveriş Sepeti Projesi** deposuna hoş geldiniz. Bu proje, **HTML**, **JavaScript** ve **Bootstrap** kullanarak modern bir çevrimiçi alışveriş sepetini simüle eder. Uygulama, ürün verilerini bir API’den çekerek kullanıcıların ürünleri sepete eklemesine, toplam fiyatları görüntülemesine ve ödeme yapmasına olanak tanır.
+ Bu proje, **HTML**, **JavaScript** ve **Bootstrap** kullanarak modern bir çevrimiçi alışveriş sepetini simüle eder. Uygulama, ürün verilerini bir API’den çekerek kullanıcıların ürünleri sepete eklemesine, toplam fiyatları görüntülemesine ve ödeme yapmasına olanak tanır.
 
 ## Özellikler
 
